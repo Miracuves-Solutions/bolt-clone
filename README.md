@@ -1,68 +1,41 @@
-# 🚗 Bolt Clone — White-Label Ride-Hailing and Micro-Mobility App by Miracuves
+# Bolt Clone — White-Label Solution by Miracuves
 
-<div align="center">
-
-**Launch your own ride-hailing and micro-mobility platform in 6 days - scooters, e-bikes, taxis, fully branded.**
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Now-crimson?style=for-the-badge)](https://miracuves.com/bolt-clone/)
-[![Get Quote](https://img.shields.io/badge/Get_Quote-Free_Consultation-black?style=for-the-badge)](https://miracuves.com/contact/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/919830009649)
-
-</div>
-
-<div align="center">
-<a href="https://miracuves.com/bolt-clone/">
-<img src="https://miracuves.com/wp-content/uploads/2025/02/successful-young-asia-businesswoman-commuter-in-fa-2021-09-04-11-40-20-utc.webp" alt="Bolt Clone - Screenshot" width="800" style="border-radius:8px;max-width:100%;height:auto" />
-</a>
-</div>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Try_Now-e8344f?style=for-the-badge)](https://mxuber.mimeld.com)
+[![Solution Page](https://img.shields.io/badge/Solution_Page-miracuves.com-0b0b10?style=for-the-badge)](https://miracuves.com/bolt-clone/)
+[![Delivery](https://img.shields.io/badge/Go_Live-6_Working_Days-2ecc8f?style=for-the-badge)](https://miracuves.com/bolt-clone/#pricing)
+[![Support](https://img.shields.io/badge/Support-60_Days_+_12mo_Updates-blue?style=for-the-badge)](https://miracuves.com/facts/)
 
 ---
 
 ## Table of Contents
 
-- [What Is a Bolt Clone?](#what-is)
-- [Why Choose Miracuves](#why-choose)
-- [Who Is This For](#who-for)
-- [How It Works](#how-it-works)
-- [Core Features](#features)
-- [All Modules](#modules)
-- [Tech Stack](#tech-stack)
-- [Revenue Streams](#revenue)
-- [Pricing](#pricing)
-- [Deployment Timeline](#timeline)
-- [Build vs Buy](#build-vs-buy)
-- [Market Opportunity](#market)
-- [FAQ](#faq)
-- [Related Solutions](#related)
+1. [Who Is This For?](#who-is-this-for)
+2. [How It Works](#how-it-works)
+3. [Core Features](#core-features)
+4. [Architecture](#architecture)
+5. [Revenue Streams](#revenue-streams)
+6. [What's Included](#whats-included)
+7. [Deployment Timeline](#deployment-timeline)
+8. [Why Not Build From Scratch?](#why-not-build-from-scratch)
+9. [Market Opportunity](#market-opportunity)
+10. [Client Testimonials](#client-testimonials)
+11. [FAQ](#faq)
+12. [Resources](#resources)
+13. [About Miracuves](#about-miracuves)
 
----
+## Live Demos
 
-## 🚗 What Is a Bolt Clone?
+| Environment | URL | What you can test |
+|---|---|---|
+| Web Platform | [mxuber.mimeld.com](https://mxuber.mimeld.com) | Full experience in the browser |
+| Mobile App (Android) | [mas.mimeld.com](https://mas.mimeld.com) | Browse, transact, engage |
+| Admin Dashboard | [Solution page → Demo](https://miracuves.com/bolt-clone/#demo) | Users, content, plans, analytics |
 
-A **Bolt Clone** is a ready-to-deploy, white-label ride-hailing and micro-mobility platform that replicates the core functionality of Bolt - ride booking, e-scooter rental, driver management, fare calculation, and payments - customized entirely under your own brand.
+Demo credentials: [miracuves.com/bolt-clone -> Demo section](https://miracuves.com/bolt-clone/#demo)
 
-Every functional component - the rider app, driver app, admin dashboard, dispatch engine, and payment layer - is built, tested, and deployable from day one.
+## What Makes This Bolt Clone Different
 
-Instead of spending 6-12 months and $80,000+ building from scratch, Miracuves delivers a fully functional, scalable platform in **6 days**, starting at **$2,899**, with complete source code ownership.
-
-The global ride-hailing and micro-mobility market is projected to reach **$240 billion by 2030**. Whether you are launching in a tier-2 city, building an e-scooter rental service, or expanding an existing transport network - this solution is your fastest path to market.
-
----
-
-## Why Choose Miracuves for Your Bolt Clone?
-
-Choosing the right technology partner determines whether your launch succeeds or stalls. Here is what sets Miracuves apart:
-
-- **6-day delivery guarantee** - from first conversation to first ride in under a week
-- **Multi-service support** - ride-hailing, e-scooters, e-bikes, and food delivery
-- **Dynamic pricing engine** - surge pricing and promotion management
-- **Complete source code ownership** - zero vendor lock-in
-- **3,900+ apps delivered** to clients across 40+ countries
-- Real-time GPS tracking
-- Smart driver allocation
-- Multi-service capability
-
----
+<!-- TODO: fill 3-5 vertical-specific differentiators -->
 
 ## Who Is This For?
 
@@ -114,7 +87,7 @@ Choosing the right technology partner determines whether your launch succeeds or
 
 ---
 
-## Advanced and AI-Powered Features
+## Advanced Features
 
 The platform integrates AI-powered features that reduce manual overhead and capture revenue opportunities:
 
@@ -128,7 +101,7 @@ The platform integrates AI-powered features that reduce manual overhead and capt
 
 ---
 
-## All Modules: Apps and Web Panels
+## Apps and Web Panels
 
 | Module | Description |
 |---|---|
@@ -138,7 +111,19 @@ The platform integrates AI-powered features that reduce manual overhead and capt
 
 ---
 
-## Tech Stack
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Flutter Apps<br/>Android · iOS] --> G[REST API<br/>Laravel Backend]
+    W[Web Platform<br/>Responsive] --> G
+    P[Partner Panel] --> G
+    AD[Admin Dashboard] --> G
+    G --> DB[(MySQL)]
+    G --> S3[Object Storage]
+```
+
+**Stack:**
 
 | Layer | Technology |
 |---|---|
@@ -171,7 +156,15 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Pricing and What Is Included
+## Security and Compliance
+
+- OTP-based authentication
+- SSL/TLS encrypted API communication
+- GDPR-ready data handling
+
+---
+
+## What's Included
 
 | Plan | Price | What You Get |
 |---|---|---|
@@ -191,6 +184,8 @@ The platform is engineered to generate revenue from day one through multiple com
 - Free 1-Year Updates
 
 ---
+**Pricing:** from **$2,899** — transparent on the [solution page](https://miracuves.com/bolt-clone/#pricing).
+
 
 ## Deployment Timeline
 
@@ -207,15 +202,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Security and Compliance
-
-- OTP-based authentication
-- SSL/TLS encrypted API communication
-- GDPR-ready data handling
-
----
-
-## Build vs Buy Comparison
+## Why Not Build From Scratch?
 
 | Factor | Build from Scratch | Miracuves Solution |
 |---|---|---|
@@ -242,7 +229,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Successful Verticals Built on This Model
+## Successful Verticals
 
 - City ride-hailing (competing with Uber, Bolt locally)
 - E-scooter and e-bike rental networks
@@ -269,7 +256,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **How much does a Bolt clone cost?**
 A white-label Bolt clone from Miracuves starts at $2,899 with complete source code ownership.
@@ -288,7 +275,7 @@ Yes. Complete source code ownership is included.
 
 ---
 
-## Related Solutions from Miracuves
+## Related Solutions
 
 Explore our other white-label clone solutions:
 
@@ -297,6 +284,11 @@ Explore our other white-label clone solutions:
 - [inDrive Clone - Negotiable Rides](https://github.com/Miracuves-Solutions/inDrive-Clone)
 
 ---
+
+## Resources
+
+- [Full Solution Page](https://miracuves.com/bolt-clone/) — features, pricing, demos, FAQ
+
 
 ## Get Started
 
@@ -339,3 +331,22 @@ This product is independently developed by Miracuves. All product names, logos, 
 
 </div>
 
+
+*Keywords: bolt clone, bolt script, white label solution, laravel flutter app, clone script*
+
+
+
+---
+
+### Note on This Repository
+
+This repository is a product overview. The full source code is delivered to clients on purchase. For a hands-on evaluation, use the live demos above; credentials are public on the solution page.
+
+
+<!--
+=========================================================
+GENERATED FROM MIRACUVES NETFLIX-CLONE README TEMPLATE
+Canon: 6 working days, from $2,799 floor, 60 days support + 12 months updates.
+Never use 3 days. See https://miracuves.com/facts/ for audited claims.
+=========================================================
+-->
